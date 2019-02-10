@@ -15,3 +15,11 @@ Furthermore, when dealing with Multi-Agent Systems, the development of mechanism
 This paper presents a real-time compliant multi-object tracking solution for multi-agent systems that operate on stochastic and highly dynamic environments, using information gathered by various agents over time.
 Although not limited to this specific application domain, the implementation and evaluation of this solution were performed on a team of autonomous soccer-playing robots.
 The proposed solution is detailed from the detection and feature extraction phase to the general problem of efficiently tracking objects in the environment. Promising results have been achieved on the real testbed, with improvements on global object perception, which are also presented and discussed.
+
+## Performed Lab Tests
+
+This repository contains the data collected in the lab tests under the conditions explained in the manuscript.
+
+  - .xml files are CAMBADA log-files, they can be opened with the CAMBADA basestation tool
+  - .jsonl files are JSON strings, separated by the new-line character (each line represents a frame)
+  
